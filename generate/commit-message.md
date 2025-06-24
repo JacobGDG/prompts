@@ -15,9 +15,11 @@ or context. Dot not wrap message in code block markdown.
 
 - `<type>`: the category of the change.
 - `<subject>`: a short summary of the change in present tense.
-- `<body>`: a more detailed commit, with additional information on the why. Add
-  only information provided by the context, do not invent any why or how without
-  clear instruction. (OPTIONAL)
+- `<body>`: additional details about the commit. The WHY must appear at the
+  start, further details can be added later if needed. Future engineers may only
+  read the first couple lines. Include details that would be searchable. Only
+  include if additional context is provided below. Only include if additional
+  information is needed to understand the change.
 
 ## Rules
 
